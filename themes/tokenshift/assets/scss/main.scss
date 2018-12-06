@@ -1,0 +1,83 @@
+body {
+	font-family: sans-serif;
+	font-size: 120%;
+	line-height: 1.5;
+}
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.home-page-splash {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	&__email {
+		font-family: "Lucida Console", "Consolas", "Andale Mono", monospace;
+		padding-left: 2em;
+		white-space: pre;
+	}
+}
+
+.home-page-listing {
+	text-align: center;
+
+	&__entries {
+		display: inline-flex;
+		flex-direction: column;
+		text-align: left;
+	}
+
+	&__entry {
+		align-items: center;
+		display: flex;
+		flex-direction: row;
+	}
+
+	&__date {
+		color: #999;
+		font-size: 0.9em;
+		font-weight: 300;
+		margin-right: 0.5em;
+		vertical-align: middle;
+	}
+
+	&__title {
+		font-size: 2em;
+		font-weight: 800;
+	}
+}
+
+.article-title {
+	align-content: center;
+	display: flex;
+	flex-direction: row;
+	margin: 0 auto;
+	max-width: 50em;
+
+	&__logo {
+		margin-right: 1.0em;
+	}
+
+	&__text {
+		font-weight: 800;
+		margin: 0.05em;
+	}
+}
+
+.article {
+	margin: 0 auto;
+	max-width: 50em;
+
+	&__date {
+		color: #999;
+		font-size: 0.9em;
+		font-weight: 300;
+	}
+}

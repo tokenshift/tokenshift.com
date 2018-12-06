@@ -1,0 +1,4 @@
+baseURL = "https://tokenshift.com/"
+languageCode = "en-us"
+title = "Tokenshift.com"
+theme = "tokenshift"
