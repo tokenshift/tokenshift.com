@@ -18,21 +18,22 @@ a:hover {
 	align-items: center;
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
 }
 
 .home-page-splash {
+	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 
 	&__avatar {
-		margin: 0 2em;
+		margin-right: 2em;
 	}
 
 	&__email {
 		font-family: "Lucida Console", "Consolas", "Andale Mono", monospace;
 		margin: auto;
-		text-align: center;
 		white-space: pre;
 	}
 }
