@@ -21,11 +21,9 @@ a:hover {
 }
 
 .home-page-splash {
-	align-items: center;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	text-align: center;
 
 	&__avatar {
 		margin: 0 2em;
@@ -33,6 +31,8 @@ a:hover {
 
 	&__email {
 		font-family: "Lucida Console", "Consolas", "Andale Mono", monospace;
+		margin: auto;
+		text-align: center;
 		white-space: pre;
 	}
 }
