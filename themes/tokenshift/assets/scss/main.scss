@@ -2,6 +2,7 @@ body {
 	font-family: sans-serif;
 	font-size: 120%;
 	line-height: 1.5;
+	margin: 0.5em 1em;
 }
 
 a {
@@ -13,21 +14,30 @@ a:hover {
 	text-decoration: underline;
 }
 
-.home-page-splash {
-	display: flex;
+.home-page-stack {
 	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.home-page-splash {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
+	text-align: center;
+
+	&__avatar {
+		margin: 0 2em;
+	}
 
 	&__email {
 		font-family: "Lucida Console", "Consolas", "Andale Mono", monospace;
-		padding-left: 2em;
 		white-space: pre;
 	}
 }
 
 .home-page-listing {
-	text-align: center;
-
 	&__entries {
 		display: inline-flex;
 		flex-direction: column;

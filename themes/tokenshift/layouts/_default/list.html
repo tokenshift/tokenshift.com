@@ -4,13 +4,14 @@
 		{{ partial "head.html" . }}
 	</head>
 	<body>
-		<div class="home-page-splash">
-			<div class="home-page-splash__avatar avatar">
-				<a href="/">
-					<img src="/images/avatar_256.png" alt="::=">
-				</a>
-			</div>
-			<div class="home-page-splash__email">
+		<div class="home-page-stack">
+			<div class="home-page-splash">
+				<div class="home-page-splash__avatar avatar">
+					<a href="/">
+						<img src="/images/avatar_256.png" alt="::=">
+					</a>
+				</div>
+				<div class="home-page-splash__email">
     Name        <a href="/">Website</a>
 ┌──────────┐ ┌────────────┐
 Nathan.Clark@tokenshift.com
@@ -18,22 +19,23 @@ Nathan.Clark@tokenshift.com
               <a href="https://twitter.com/tokenshift">Twitter</a>
 └─────────────────────────┘
            <a href="mailto:nathan.clark@tokenshift.com">Email</a>
-			</div>
-		</div>
-
-		<div class="home-page-listing">
-			<div class="home-page-listing__entries">
-				{{ range .Pages }}
-				<div class="home-page-listing__entry">
-					<span class="home-page-listing__date">
-						{{ .Date.Format "2006/1/2" }}
-					</span>
-					<span class="home-page-listing__title">
-						<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-					</span>
 				</div>
-				{{ end }}
-			<div class="home-page-listing__entries">
+			</div>
+
+			<div class="home-page-listing">
+				<div class="home-page-listing__entries">
+					{{ range .Pages }}
+					<div class="home-page-listing__entry">
+						<span class="home-page-listing__date">
+							{{ .Date.Format "2006/1/2" }}
+						</span>
+						<span class="home-page-listing__title">
+							<a href="{{ .RelPermalink }}">{{ .Title }}</a>
+						</span>
+					</div>
+					{{ end }}
+				<div class="home-page-listing__entries">
+			</div>
 		</div>
 	</body>
 </html>
