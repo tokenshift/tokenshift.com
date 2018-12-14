@@ -1,4 +1,3 @@
-baseURL = "https://tokenshift.com/"
+baseURL = "https://www.tokenshift.com/"
 languageCode = "en-us"
 title = "Tokenshift.com"
-theme = "tokenshift"

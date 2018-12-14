@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono&subset=latin-ext');
+
 body {
 	font-family: sans-serif;
 	font-size: 120%;
@@ -14,11 +16,29 @@ a:hover {
 	text-decoration: underline;
 }
 
-.home-page-stack {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
+h1 {
+	font-size: 2em;
+	font-weight: 800;
+}
+
+h2 {
+	font-size: 1.5em;
+	font-weight: 200;
+	margin: 0;
+}
+
+h3 {
+	font-size: 1.2em;
+	font-weight: 600;
+	margin: 0;
+}
+
+p {
+	margin: 1em 0;
+}
+
+h1+p, h2+p, h3+p {
+	margin-top: 0;
 }
 
 .home-page-splash {
@@ -28,17 +48,13 @@ a:hover {
 	justify-content: center;
 
 	&__avatar {
-		margin-right: 2em;
-	}
-
-	&__email {
-		font-family: "Lucida Console", "Consolas", "Andale Mono", monospace;
-		margin: auto;
-		white-space: pre;
+		margin: 0 auto;
 	}
 }
 
 .home-page-listing {
+	text-align: center;
+
 	&__entries {
 		display: inline-flex;
 		flex-direction: column;
@@ -77,7 +93,6 @@ a:hover {
 	}
 
 	&__text {
-		font-weight: 800;
 		margin: 0.05em;
 	}
 }
