@@ -11,7 +11,12 @@ own reference.
 ### Coordinated Backoff
 
 [(PDF) How NOT to Measure Latency](https://www.azul.com/files/HowNotToMeasureLatency_LLSummit_NYC_12Nov2013.pdf)
-_by Matt Schuetze, Product Management Director, Azul Systems_
+_by Matt Schuetze & Gil Tene_
 
 [Everything You Know About Latency Is Wrong](https://bravenewgeek.com/everything-you-know-about-latency-is-wrong/)
 _by Tyler Treat_
+
+## Networking
+
+[Traffic Control HOWTO](http://linux-ip.net/articles/Traffic-Control-HOWTO/)
+_by Martin A. Brown_

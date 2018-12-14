@@ -10,12 +10,12 @@
 					<img src="/images/avatar_64.png" alt="::=">
 				</a>
 			</div>
-			<h1 class="article-title__text">
-				<a href="{{ .RelPermalink }}">{{ .Title }}</a>
-			</h1>
+			<div class="article-title__text">
+				<h1><a href="{{ .RelPermalink }}">{{ .Title }}</a></h1>
+				<span class="article-title__date">{{ .Date.Format "2006/1/2" }}</span>
+			</div>
 		</header>
 		<article class="article">
-			<span class="article__date">{{ .Date.Format "2006/1/2" }}</span>
 			<div class="article__content">
 				{{ .Content }}
 			</div>

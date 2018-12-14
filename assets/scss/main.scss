@@ -19,18 +19,22 @@ a:hover {
 h1 {
 	font-size: 2em;
 	font-weight: 800;
+	line-height: 1.1em;
+	margin: 0;
 }
 
 h2 {
 	font-size: 1.5em;
 	font-weight: 200;
-	margin: 0;
+	line-height: 1.1em;
+	margin: 0.2em 0;
 }
 
 h3 {
 	font-size: 1.2em;
 	font-weight: 600;
-	margin: 0;
+	line-height: 1.1em;
+	margin: 0.2em 0;
 }
 
 p {
@@ -62,9 +66,11 @@ h1+p, h2+p, h3+p {
 	}
 
 	&__entry {
-		align-items: center;
+		align-items: baseline;
 		display: flex;
 		flex-direction: row;
+		flex-wrap: wrap;
+		margin-bottom: 0.5em;
 	}
 
 	&__date {
@@ -72,12 +78,14 @@ h1+p, h2+p, h3+p {
 		font-size: 0.9em;
 		font-weight: 300;
 		margin-right: 0.5em;
-		vertical-align: middle;
+		min-width: 6em;
+		text-align: right;
 	}
 
 	&__title {
 		font-size: 2em;
 		font-weight: 800;
+		line-height: 1.1;
 	}
 }
 
@@ -85,6 +93,7 @@ h1+p, h2+p, h3+p {
 	align-content: center;
 	display: flex;
 	flex-direction: row;
+	flex-wrap: wrap;
 	margin: 0 auto;
 	max-width: 50em;
 
@@ -95,15 +104,15 @@ h1+p, h2+p, h3+p {
 	&__text {
 		margin: 0.05em;
 	}
-}
-
-.article {
-	margin: 0 auto;
-	max-width: 50em;
 
 	&__date {
 		color: #999;
 		font-size: 0.9em;
 		font-weight: 300;
 	}
+}
+
+.article {
+	margin: 0 auto;
+	max-width: 50em;
 }
