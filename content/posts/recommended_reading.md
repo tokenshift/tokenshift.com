@@ -20,3 +20,13 @@ _by Tyler Treat_
 
 [Traffic Control HOWTO](http://linux-ip.net/articles/Traffic-Control-HOWTO/)
 _by Martin A. Brown_
+
+## Clojure
+
+### Spec
+
+[clojure.spec - Rationale and Overview](https://clojure.org/about/spec)
+_by Rich Hickey_
+
+[spec Guide](https://clojure.org/guides/spec)
+_original author: Alex Miller_
