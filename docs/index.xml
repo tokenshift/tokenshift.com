@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tokenshift.com</title>
+    <link>https://www.tokenshift.com/</link>
+    <description>Recent content on Tokenshift.com</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 14 Dec 2018 16:34:57 -0500</lastBuildDate>
+    
+	<atom:link href="https://www.tokenshift.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Recommended Reading</title>
+      <link>https://www.tokenshift.com/posts/recommended_reading/</link>
+      <pubDate>Fri, 14 Dec 2018 16:34:57 -0500</pubDate>
+      
+      <guid>https://www.tokenshift.com/posts/recommended_reading/</guid>
+      <description>This post collects links to various articles, blogs and videos, mainly for my own reference.
+Load Testing Coordinated Backoff (PDF) How NOT to Measure Latency by Matt Schuetze &amp;amp; Gil Tene
+Everything You Know About Latency Is Wrong by Tyler Treat
+Networking Traffic Control HOWTO by Martin A. Brown
+Clojure Spec clojure.spec - Rationale and Overview by Rich Hickey
+spec Guide original author: Alex Miller</description>
+    </item>
+    
+  </channel>
+</rss>

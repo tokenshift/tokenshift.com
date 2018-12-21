@@ -1,3 +1,4 @@
 baseURL = "https://www.tokenshift.com/"
 languageCode = "en-us"
 title = "Tokenshift.com"
+publishDir = "docs"
