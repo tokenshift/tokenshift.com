@@ -30,3 +30,7 @@ _by Rich Hickey_
 
 [spec Guide](https://clojure.org/guides/spec)
 _original author: Alex Miller_
+
+## Rust
+
+[The Rust Programming Language](https://doc.rust-lang.org/book/)
