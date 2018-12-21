@@ -23,6 +23,9 @@ _by Martin A. Brown_
 
 ## Clojure
 
+[Clojure for the Brave and True](https://www.braveclojure.com/clojure-for-the-brave-and-true/)
+_by Daniel Higginbotham_
+
 ### Spec
 
 [clojure.spec - Rationale and Overview](https://clojure.org/about/spec)
