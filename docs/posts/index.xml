@@ -18,12 +18,12 @@
       
       <guid>https://www.tokenshift.com/posts/recommended_reading/</guid>
       <description>This post collects links to various articles, blogs and videos, mainly for my own reference.
-Load Testing Coordinated Backoff (PDF) How NOT to Measure Latency by Matt Schuetze &amp;amp; Gil Tene
-Everything You Know About Latency Is Wrong by Tyler Treat
-Networking Traffic Control HOWTO by Martin A. Brown
 Clojure Clojure for the Brave and True by Daniel Higginbotham
+(Youtube) Kolmogorov music by Christopher Ford
 Spec clojure.spec - Rationale and Overview by Rich Hickey
-spec Guide original author: Alex Miller</description>
+spec Guide original author: Alex Miller
+Load Testing Coordinated Backoff (PDF) How NOT to Measure Latency by Matt Schuetze &amp;amp; Gil Tene
+Everything You Know About Latency Is Wrong by Tyler Treat</description>
     </item>
     
   </channel>
