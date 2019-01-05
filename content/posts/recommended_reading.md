@@ -14,13 +14,19 @@ _by Daniel Higginbotham_
 [(Youtube) Kolmogorov music](https://www.youtube.com/watch?v=Qg3XOfioapI)
 _by Christopher Ford_
 
-### Spec
+### Libraries
 
 [clojure.spec - Rationale and Overview](https://clojure.org/about/spec)
 _by Rich Hickey_
 
 [spec Guide](https://clojure.org/guides/spec)
 _original author: Alex Miller_
+
+[core.match](https://github.com/clojure/core.match)
+
+[core.async](https://github.com/clojure/core.async)
+
+[specter](https://github.com/nathanmarz/specter)
 
 ## Load Testing
 
